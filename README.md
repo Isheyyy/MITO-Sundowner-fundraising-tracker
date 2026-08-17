@@ -1,16 +1,35 @@
-# React + Vite
+# MITO Sundowner Fundraising Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Local fundraising tracker developed for the **MITO Sundowner 2026** event.
 
-Currently, two official plugins are available:
+The application provides two views:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Guest Display** – full-screen live fundraising total and progress display.
+- **Events Console** – allows the events team to enter donations, update the fundraising goal and correct entries.
 
-## React Compiler
+## Requirements
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The computer running the tracker requires:
 
-## Expanding the ESLint configuration
+- Windows
+- Node.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+All other project dependencies are installed automatically when the tracker starts.
+
+## Running the Tracker
+
+1. Download or clone this repository.
+2. Open the project folder.
+3. Double-click:
+
+   `start-fundraiser.bat`
+
+4. The startup script will:
+   - Check that Node.js is installed.
+   - Install/check the required project dependencies.
+   - Start the local Vite server.
+   - Open the tracker at `http://localhost:5173`.
+
+5. Select **Events Console** on the operator window.
+6. Open a second browser window to `http://localhost:5173` and select **Guest Display**.
+7. Move the Guest Display window to the venue TV/display and enable **Big Screen Mode**.
